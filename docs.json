@@ -14,43 +14,43 @@
         "tab": "Documentation",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
-              "getting-started/what-is-VIVI",
-              "getting-started/quickstart"
+              "getting-started/What-is-VIVI",
+              "getting-started/Quickstart"
             ]
           },
           {
             "group": "Core Concepts",
             "pages": [
-              "core-concepts/agents",
-              "core-concepts/knowledge-bases",
-              "core-concepts/integrations",
-              "core-concepts/prompts",
-              "core-concepts/channels"
+              "core-concepts/Agents",
+              "core-concepts/Knowledge-Bases",
+              "core-concepts/Integrations",
+              "core-concepts/Prompts",
+              "core-concepts/Channels"
             ]
           },
           {
             "group": "Accounts & Billing",
             "pages": [
-              "accounts-billing/accounts-workspaces",
-              "accounts-billing/users",
-              "accounts-billing/subscription-plans"
+              "accounts-billing/Accounts-Workspaces",
+              "accounts-billing/Users",
+              "accounts-billing/Subscription-Plans"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "features/evaluations",
-              "features/scheduled-tasks",
-              "features/whatsapp-campaigns",
-              "features/reports"
+              "features/Evaluations",
+              "features/Scheduled-Tasks",
+              "features/Whatsapp-Campaigns",
+              "features/Reports"
             ]
           },
           {
             "group": "Resources",
             "pages": [
-              "resources/faqs"
+              "resources/FAQs"
             ]
           }
         ]
@@ -61,7 +61,7 @@
           {
             "group": "Endpoints",
             "pages": [
-              "api-reference/post"
+              "api-reference/POST"
             ]
           }
         ]
@@ -72,7 +72,7 @@
           {
             "group": "Updates",
             "pages": [
-              "changelog/updates"
+              "changelog/Updates"
             ]
           }
         ]
