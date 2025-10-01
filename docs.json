@@ -14,6 +14,12 @@
         "tab": "Documentation",
         "groups": [
           {
+            "group": "Overview",
+            "pages": [
+              "documentation/index"
+            ]
+          },
+          {
             "group": "Getting Started",
             "pages": [
               "documentation/getting-started/what-is-vivi",
@@ -75,7 +81,7 @@
           {
             "group": "Endpoints",
             "pages": [
-              "api-reference/post"
+              "api-reference/endpoints/post"
             ]
           }
         ]
