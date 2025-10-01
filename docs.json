@@ -74,28 +74,6 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "API Reference",
-        "groups": [
-          {
-            "group": "Endpoints",
-            "pages": [
-              "api-reference/endpoints/post"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Changelog",
-        "groups": [
-          {
-            "group": "Updates",
-            "pages": [
-              "changelog/updates"
-            ]
-          }
-        ]
       }
     ]
   },
