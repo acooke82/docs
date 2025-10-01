@@ -23,7 +23,7 @@
           },
           {
             "group": "Core Concepts",
-            "icon": "cpu",
+            "icon": "cpu-chip",
             "pages": [
               "documentation/core-concepts/agents",
               "documentation/core-concepts/integrations",
@@ -41,7 +41,7 @@
           },
           {
             "group": "Features",
-            "icon": "package-plus",
+            "icon": "package",
             "pages": [
               "documentation/features/evaluations",
               "documentation/features/scheduled-tasks",
@@ -51,7 +51,7 @@
           },
           {
             "group": "Resources",
-            "icon": "book-marked",
+            "icon": "bookmark",
             "pages": [
               "documentation/resources/faqs"
             ]
@@ -63,7 +63,7 @@
         "groups": [
           {
             "group": "Endpoints",
-            "icon": "cable",
+            "icon": "plug",
             "pages": [
               "api-reference/endpoints/post"
             ]
@@ -72,7 +72,7 @@
       },
       {
         "tab": "Changelog",
-        "icon": "scroll-text",
+        "icon": "file-text",
         "groups": [
           {
             "group": "Updates",
