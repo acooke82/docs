@@ -18,6 +18,13 @@
             "pages": [
               "documentation/index"
             ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "documentation/getting-started/what-is-vivi",
+              "documentation/getting-started/quickstart"
+            ]
           }
         ]
       }
