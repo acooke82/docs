@@ -11,56 +11,62 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "VIVI",
+        "tab": "Documentation",
         "groups": [
           {
             "group": "Getting started",
             "pages": [
-              "What is VIVI",
-              "quickstart"
+              "getting-started/what-is-vivi",
+              "getting-started/quickstart"
             ]
           },
           {
             "group": "Core Concepts",
             "pages": [
-              "",
-              ""
+              "core-concepts/agents",
+              "core-concepts/knowledge-bases",
+              "core-concepts/integrations",
+              "core-concepts/prompts",
+              "core-concepts/channels"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Accounts & Billing",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "accounts-billing/accounts-workspaces",
+              "accounts-billing/users",
+              "accounts-billing/subscription-plans"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "Features",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
+              "features/evaluations",
+              "features/scheduled-tasks",
+              "features/whatsapp-campaigns",
+              "features/reports"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "resources/faqs"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/post"
             ]
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    ]
   },
   "logo": {
     "light": "/logo/dark.png",
