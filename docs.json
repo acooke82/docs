@@ -16,8 +16,8 @@
           {
             "group": "Getting Started",
             "pages": [
-              "getting-started/What-is-VIVI",
-              "getting-started/Quickstart"
+              "documentation/getting-started/what-is-vivi",
+              "documentation/getting-started/quickstart"
             ]
           },
           {
