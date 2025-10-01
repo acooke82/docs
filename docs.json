@@ -15,6 +15,7 @@
         "groups": [
           {
             "group": "Getting Started",
+            "icon": "flag",
             "pages": [
               "documentation/getting-started/what-is-vivi",
               "documentation/getting-started/quickstart"
@@ -27,25 +28,50 @@
               "documentation/core-concepts/integrations",
               "documentation/core-concepts/prompts"
             ]
-          }
-        ],
-        "menu": [
+          },
           {
-            "item": "Knowledge Bases",
+            "group": "Accounts & Billing",
             "pages": [
-              "documentation/core-concepts/knowledge-bases",
-              "documentation/core-concepts/knowledge-bases/databases",
-              "documentation/core-concepts/knowledge-bases/documents",
-              "documentation/core-concepts/knowledge-bases/urls"
+              "documentation/accounts-billing/accounts-workspaces",
+              "documentation/accounts-billing/subscription-plans",
+              "documentation/accounts-billing/users"
             ]
           },
           {
-            "item": "Channels",
+            "group": "Features",
             "pages": [
-              "documentation/core-concepts/channels",
-              "documentation/core-concepts/channels/web-chat",
-              "documentation/core-concepts/channels/whatsapp",
-              "documentation/core-concepts/api"
+              "documentation/features/evaluations",
+              "documentation/features/scheduled-tasks",
+              "documentation/features/whatsapp-campaigns",
+              "documentation/features/reports"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "documentation/resources/faqs"
+            ]
+          },
+          {
+            "tab": "API Reference",
+            "groups": [
+              {
+                "group": "Endpoints",
+                "pages": [
+                  "api-reference/endpoints/post"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Changelog",
+            "groups": [
+              {
+                "group": "Updates",
+                "pages": [
+                  "changelog/updates"
+                ]
+              }
             ]
           }
         ]
