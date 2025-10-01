@@ -41,7 +41,7 @@
           },
           {
             "group": "Features",
-            "icon": "box-open-full",
+            "icon": "sparkles",
             "pages": [
               "documentation/features/evaluations",
               "documentation/features/scheduled-tasks",
