@@ -16,7 +16,7 @@
           {
             "group": "Getting started",
             "pages": [
-              "getting-started/what-is-vivi",
+              "getting-started/what-is-VIVI",
               "getting-started/quickstart"
             ]
           },
@@ -62,6 +62,17 @@
             "group": "Endpoints",
             "pages": [
               "api-reference/post"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Updates",
+            "pages": [
+              "changelog/updates"
             ]
           }
         ]
