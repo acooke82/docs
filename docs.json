@@ -24,14 +24,10 @@
             "group": "Core Concepts",
             "pages": [
               "documentation/core-concepts/agents",
-              {
-                "page": "documentation/core-concepts/knowledge-bases",
-                "subpages": [
-                  "documentation/core-concepts/knowledge-bases/databases",
-                  "documentation/core-concepts/knowledge-bases/documents",
-                  "documentation/core-concepts/knowledge-bases/urls"
-                ]
-              }
+              "documentation/core-concepts/knowledge-bases",
+              "documentation/core-concepts/knowledge-bases/databases",
+              "documentation/core-concepts/knowledge-bases/documents",
+              "documentation/core-concepts/knowledge-bases/urls"
             ]
           }
         ]
