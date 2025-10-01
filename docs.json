@@ -16,8 +16,8 @@
           {
             "group": "Getting Started",
             "pages": [
-              "getting-started/what-is-vivi.mdx",
-              "getting-started/quickstart.mdx"
+              "getting-started/what-is-vivi",
+              "getting-started/quickstart"
             ]
           },
           {
