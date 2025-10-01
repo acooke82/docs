@@ -24,10 +24,24 @@
             "group": "Core Concepts",
             "pages": [
               "core-concepts/Agents",
-              "core-concepts/Knowledge-Bases",
+              {
+                "page": "core-concepts/Knowledge-Bases",
+                "subpages": [
+                  "core-concepts/Knowledge-Bases/Databases",
+                  "core-concepts/Knowledge-Bases/Documents",
+                  "core-concepts/Knowledge-Bases/URLs"
+                ]
+              },
               "core-concepts/Integrations",
               "core-concepts/Prompts",
-              "core-concepts/Channels"
+              {
+                "page": "core-concepts/Channels",
+                "subpages": [
+                  "core-concepts/Channels/Web-Chat",
+                  "core-concepts/Channels/WhatsApp",
+                  "core-concepts/Channels/API"
+                ]
+              }
             ]
           },
           {
