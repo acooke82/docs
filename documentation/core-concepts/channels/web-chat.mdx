@@ -1,5 +1,98 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Web Chat'
 ---
 
+**Web Chat** is a native communication channel that allows users to engage with your virtual agent directly on your website. It offers a **customizable**, **embeddable** chat widget that supports **real-time interactions**, ensuring a seamless and branded experience for your visitors.
+
+---
+
+## How It Works
+
+Once you create a Web Chat channel, you’ll access a configuration panel where you can fully customize the widget’s appearance and behavior before embedding it into your website.
+
+---
+
+## 1. Appearance Configuration
+
+Customize the look and feel of the chat widget using the live preview panel:
+
+### **General Settings**
+- Add a **privacy policy link**
+- Toggle **agent reply sounds** on/off
+- Toggle **reply streaming** (stream vs. full message at once)
+
+### **Chat Window**
+- Customize **colors**: header, text, accent, and accent text (hex codes or color picker)
+- Set **theme**: Light, Dark, or Auto (match user’s system setting)
+- Choose your **avatar**: use initials or upload a custom image
+
+### **Chat Button**
+- Use **text or image** as the chat button
+- Adjust **size and color** to match your site style
+
+### **Fallback Message**
+- Set a **custom offline message** and icon for rare outages
+
+### **Domain Restriction**
+- Specify which **domain(s)** are allowed to load the chat widget
+
+---
+
+## 2. Agent Installation
+
+After configuration, go to the **Installation** tab to get your embed code:
+
+### Embed Script
+
+Paste this JavaScript code on every page where the agent should appear:
+
+```html
+<script async src="https://<your-agent-url>/chatbot.js"></script>
+<script>
+  window.addEventListener('load', function() {
+    window.initViviChatbot({
+      channelId: 'your-channel-id'
+    });
+  });
+</script>
+```
+## Optional Parameters
+
+You can pass optional parameters to further control the chat session. These parameters are added inside a `config` block in your JavaScript embed snippet.
+
+### Available Parameters
+
+| Parameter          | Description                                                                 |
+|--------------------|-----------------------------------------------------------------------------|
+| `welcomeMessage`   | A custom greeting shown when the chat widget loads.                         |
+| `threadId`         | A persistent or custom thread ID for the session.                           |
+| `userId`           | A unique identifier to tie the session to a specific user.                  |
+| `persistentThread` | If `true`, the chat persists across page refreshes via `localStorage`.     |
+
+### Example Implementation
+
+```html
+<script async src="https://<your-agent-url>/chatbot.js"></script>
+<script>
+  window.addEventListener('load', function () {
+    window.initViviChatbot({
+      channelId: 'your-channel-id',
+      config: {
+        welcomeMessage: 'Hi 👋, How can I help you?',
+        threadId: 'user-thread-id',
+        userId: 'user-123',
+        persistentThread: true
+      }
+    });
+  });
+</script>
+```
+
+---
+
+## Best Practices
+- **Match your Brand**: Use your brand’s colors and logo to ensure a cohesive experience.
+- **Welcome Message**: Set a clear and friendly initial greeting to guide users.
+- **Thread Persistence**: Enable `persistentThread` to give returning users continuity in their conversations.
+- **Custom User ID**: Tie sessions to authenticated users when possible to provide context and improve support.
+- **Test Before Deploying**: Use the live preview to validate appearance and behavior before embedding the script into production environments.

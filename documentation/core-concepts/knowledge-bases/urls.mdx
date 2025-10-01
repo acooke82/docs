@@ -1,5 +1,43 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'URLs'
 ---
+
+A **URL knowledge base** connects an agent to **live, real-time information** from a website.  
+Unlike documents, URLs are **not indexed** — the agent fetches content from the site **each time it is queried**.
+
+---
+
+## How does it work?
+
+1. **Add a URL** to your knowledge base list.
+2. Click the **Test URL** button to confirm the site is accessible.
+   - Some sites may be inaccessible due to:
+     - CAPTCHAs
+     - Anti-bot restrictions
+     - Other access barriers
+3. You can also test accessibility by **asking the agent about the site** and verifying its response.
+4. When the agent receives a question, it **fetches the latest content in real time** from the specified URL.
+
+---
+
+## Best Practices
+
+**Real-Time Only**  
+URLs pull content directly from the web; nothing is cached or pre-indexed.
+
+**No File Links**  
+Avoid using URLs that point to downloadable files like `.pdf`, `.docx`, etc.  
+Instead: Download the file and upload it via a **Document Knowledge Base**.
+
+**Verification**  
+Always test a new URL by asking the agent about it and validating the returned response for accuracy.
+
+**Clarity**  
+Use URLs that contain **clean, static, text-based content**.  
+Avoid heavily scripted or dynamic pages that make extraction difficult.
+
+**Limiters**  
+If you want your agent to only use certain parts of your site:
+- Use the **exact URL** to a specific page
+- Avoid linking just the home page unless necessary
 

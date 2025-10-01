@@ -1,5 +1,35 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Databases'
 ---
+
+A database knowledge base connects your agent directly to structured data stored in a relational database. This allows the agent to retrieve rows, records, and facts in real time, based on user queries.
+
+---
+
+## How does it work?
+
+Add a database knowledge base by entering the following:
+
+- **Database Server URL**
+- **Database Name**
+- **Database Username**
+- **Database Password**
+- **Database Port**
+- **Database Engine** (PostgreSQL, MySQL, SQL Server, SQLite, Oracle)
+
+Use the **Test DB Connection** button to confirm the connection is working before deploying.
+
+Once connected, the agent queries the database when needed and returns structured results.
+
+Responses reflect the current state of the database in real time.
+
+--- 
+
+## Best Practices
+
+- **Use for Structured Data:** Databases are ideal for frequently updated, structured data like inventory, schedules, or customer records.
+- **Document Your Schema:** Ensure table and field names are clear and well-documented so queries return meaningful results.
+- **Secure Access:** Provide only the credentials and permissions the agent requires — avoid exposing sensitive data unnecessarily.
+- **Test Thoroughly:** Always run the Test DB Connection to validate setup before production.
+- **Plan for Performance:** Optimize large queries and avoid unnecessary load by tailoring endpoints to specific use cases.
 

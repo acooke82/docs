@@ -1,5 +1,99 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Evaluations'
 ---
+
+An evaluation is a structured test of an agent’s performance before it is moved into production. Evaluations measure how well an agent answers a set of predefined questions, tracking accuracy, relevance, hallucination percentage, usefulness, and response time.
+
+Each evaluation run produces a detailed record by using a specified agent, dataset, and results. You can review answers, scores, and reasoning to identify where the agent performs well and where adjustments are needed.
+
+## Why It Matters
+
+- **Quality Control:** Detect hallucinations and incorrect answers.  
+- **Optimization:** Measure response time and accuracy to refine performance.  
+- **Gap Analysis:** Reveal missing or unclear content in prompts or knowledge bases.  
+- **Confidence:** Ensure reliability before deployment.
+
+## How Evaluations Work
+
+1. **Select an Agent**  
+   Choose the agent you want to test.
+
+2. **Select a Dataset**  
+   Pick or create a dataset of test questions to evaluate the agent against.
+
+3. **Run the Evaluation**  
+   Define the number of repetitions and launch the evaluation run.
+
+4. **Review Results**  
+   Inspect answers, correctness, relevance, hallucination percentage, usefulness, and response time.
+
+5. **Refine and Re-Test**  
+   Adjust prompts, knowledge bases, or integrations based on findings. Run new evaluations until the agent meets your performance threshold.
+
+## Runs
+
+An evaluation run is the record of a single test. It links:
+
+- The agent being tested.  
+- The dataset of questions.  
+- The results, including scores and response details.
+
+Runs allow you to compare performance across time and identify whether improvements or regressions occurred after changes.
+
+## Scoring Dimensions
+
+### Groundedness (answer vs. context)  
+Checks whether the answer is supported by the provided context (no hallucinations).  
+- 0–20: Not grounded, entirely fabricated.  
+- 20–40: Weak grounding, mostly unsupported.  
+- 40–60: Partial grounding, mix of fact and fabrication.  
+- 60–80: Mostly grounded, minor unsupported details.  
+- 80–100: Fully grounded, all claims supported.
+
+### Relevance (context vs. question)  
+Evaluates if the retrieved context is pertinent to the question.  
+- 0–20: Irrelevant.  
+- 20–40: Low relevance, mostly noise.  
+- 40–60: Partial relevance, some useful fragments.  
+- 60–80: Mostly relevant with minor noise.  
+- 80–100: Fully relevant and sufficient.
+
+### Usefulness (answer vs. question)  
+Measures whether the answer is helpful and actionable.  
+- 0–20: Not useful, fails to address question.  
+- 20–40: Barely useful, vague or incomplete.  
+- 40–60: Somewhat useful, shallow coverage.  
+- 60–80: Useful, clear, covers key points.  
+- 80–100: Highly useful, comprehensive, and insightful.
+
+### Correctness (answer vs. reference)  
+Compares the answer against a gold/reference answer.  
+- 0–20: Incorrect.  
+- 20–40: Mostly incorrect.  
+- 40–60: Partially correct.  
+- 60–80: Mostly correct with small errors.  
+- 80–100: Fully correct or semantically equivalent.
+
+### Response Time  
+Tracks how long the agent takes to generate an answer. Some models prioritize depth of reasoning and may naturally respond slower.
+
+## Datasets
+
+Datasets are collections of questions used to evaluate an agent. They are created and managed separately, then linked during an evaluation run.
+
+### Best Practices for Datasets
+
+- **Meaningful Sample Size:** Use enough questions to represent real-world usage. A dataset that is too small will not expose gaps effectively.  
+- **Variety:** Include common, edge-case, and failure-case questions.  
+- **Realism:** Write questions the way users actually phrase them, not only polished versions.  
+- **Balanced Coverage:** Cover each knowledge base, prompt instruction, or integration the agent will rely on.  
+- **Reusable Format:** Upload datasets as CSV files so they can be versioned and reused.
+
+## Best Practices
+
+- Always run evaluations before moving an agent into production.  
+- Build datasets that reflect your actual users’ language and needs.  
+- Track hallucination percentage closely, as it directly impacts trust.  
+- Use evaluation results to fine-tune prompts, knowledge bases, or integrations.  
+- Re-run evaluations after updates to confirm ongoing accuracy.
 

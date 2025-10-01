@@ -1,5 +1,34 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'API'
 ---
+
+The API channel allows external systems to communicate directly with your agent using secure, programmatic endpoints. This enables you to integrate your VIVI agent into custom applications, back-end systems, or third-party workflows using HTTP-based calls.
+
+---
+
+## How It Works  
+Once you create an API channel, you are provided with a unique:  
+
+- **Channel ID** – Used in endpoint URLs to identify the API channel.  
+- **API Key** – Used to authenticate requests to your agent.  
+
+The interface also provides auto-generated OpenAPI/Swagger documentation outlining the available endpoints and their required parameters.
+
+---
+
+## Endpoints
+
+| Name             | Method | Path                               | Description                      |
+|------------------|--------|----------------------------------|---------------------------------|
+| Stream Messages  | POST   | `/channelsApi/{channelId}/stream`   | Streams responses back progressively.  |
+| Invoke Messages  | POST   | `/channelsApi/{channelId}/invoke`   | Sends a single message and receives output.  |
+| Batch Messages   | POST   | `/channelsApi/{channelId}/batch`    | Sends multiple messages in one call.  |
+
+Each endpoint supports payloads sent via POST requests and requires the `APIKeyHeader` for authorization. A test button is available next to each endpoint to validate behavior once the API channel is linked to a published agent.
+
+---
+
+## Best Practices  
+- Keep your API key secret and rotate it if you suspect exposure.  
+- Always test endpoints using the provided tools before connecting production systems.
 

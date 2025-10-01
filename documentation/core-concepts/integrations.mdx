@@ -1,5 +1,88 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Integrations'
 ---
+
+Integrations are how an agent **interacts with the outside world**. They extend agent capabilities by connecting to external systems and allow the agent to **perform tasks** on the user’s behalf.
+
+---
+
+## Why It Matters
+
+Integrations turn your agent from a passive responder into an **active executor**.
+
+- **Capability**: Extend into CRMs, ticketing systems, apps, etc.  
+- **Action**: Let agents act — not just reply.  
+- **Scalability**: Mix and match integrations to evolve with business needs.
+
+---
+
+## Types of Integrations
+
+We currently support **three types** of integrations:
+
+---
+
+### 1. **Apps**
+
+Apps are business software tools such as **HubSpot**, **Salesforce**, or **DocuSign**.
+
+- Built on **MCP** (Model Context Protocol): An open-source framework that standardizes how tools connect to agents.
+- Examples: Apollo.io, DocuSign, Duffel.
+- Tools inside apps are **enabled by default** — disable them as needed when configuring your agent.
+- Some apps require:
+  - Admin setup
+  - API keys or credentials
+
+> MCP provides context directly to the agent, enabling intelligent tool use.
+
+---
+
+### 2. **APIs**
+
+APIs (Application Programming Interfaces) connect agents to external systems via HTTP.
+
+- Must support **OpenAPI 3** schemas (JSON or YAML).
+- You can generate or convert Swagger files to OpenAPI 3 format.
+- Requires:
+  - A **client API key**
+  - **Documented endpoints** (e.g., `GET /tickets`, `POST /users`)
+- APIs define what agents can *do* (e.g., view, create, update).
+
+> Example: A helpdesk API may let agents *read tickets* but not *create them*, depending on the endpoint's permissions.
+
+---
+
+### 3. **Agents**
+
+Agents can be integrated with **other agents**, enabling **multi-agent systems**.
+
+- Ideal for complex workflows requiring specialized sub-agents.
+- The *supervisor agent* determines when to call others.
+- Key tips:
+  - Use **clear names and descriptions**.
+  - Understand that **multi-agent systems are slower** than single-agent setups.
+
+> For most use cases, a single agent with multiple tools is more efficient than a fully distributed multi-agent system.
+
+---
+
+## How Agents Use Integrations
+
+- Integrations are used via **MCP servers**, which guide agents to appropriate tools.
+- Applications exposed through MCP provide **real-time context**.
+- As the builder, you can:
+  - Enable or disable tools
+  - Prioritize certain integrations
+
+---
+
+## Best Practices
+
+- Carefully review integration setup — especially **admin permissions** and **API keys**.
+- **Test** all APIs and endpoints before deployment.
+- Use **clear names** for agents, apps, APIs, and tools to avoid confusion.
+- Don’t overload agents with too many sub-agents — balance efficiency with capability.
+
+---
+
 

@@ -1,5 +1,69 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
+title: 'Documents'
 ---
+
+Document knowledge bases allow you to store and retrieve information from files, notes, and created text. Documents are indexed using VIVI’s **RAGDB** system, which breaks content into chunks and uses **cosine similarity scoring** to return the most relevant results. 
+
+This makes documents ideal for structured reference material, guides, and knowledge you want your agent to use consistently.
+
+---
+
+## How does it work?
+
+Once you’ve created your **Document knowledge base**, your index will automatically begin provisioning. You can view the index status in the banner at the top of the page, showing:
+
+- Number of documents **processed**
+- Number of documents **processing**
+- Number of documents that **failed ingestion**
+
+You can add documents in three ways:
+
+### Cloud
+
+Connect directly to your cloud storage provider:
+
+- Google Drive
+- Dropbox
+- OneDrive Personal
+- OneDrive Work/School
+
+Once connected, browse and import documents. After import:
+
+- Documents are **indexed**
+- Status will change from **Pending** to **Processed** once complete
+
+### Create
+
+Use the built-in editor to write and save new documents directly in VIVI.
+
+Perfect for:
+
+- Short guides
+- FAQs
+- Reference notes
+
+Created documents are indexed like uploaded/cloud-based ones.
+
+### Upload
+
+Add files directly from your computer using one of two methods:
+
+- **Via Browser:** Best for small files (< 1GB). Drag-and-drop or click to upload.
+- **Via Storage Explorer:** Best for large files (> 1GB). Generates a temporary token for use with **Azure Storage Explorer**, enabling:
+  - Faster transfer
+  - Bulk uploads
+  - Third-party collaborator access
+
+> **Note:** After uploading via Storage Explorer, click **Sync Files** to complete the process.
+
+---
+
+## Best Practices
+
+- **Use Cloud** if files are frequently updated — changes can be re-indexed without re-uploading
+- **Use Create** for text-based additions like SOPs, notes, or FAQs
+- **Use Upload** for local files or large file sets; prefer Storage Explorer for efficiency
+- **Organize content into folders** for easier retrieval
+- **Verify indexing status** — ensure files show as `Processed` before use in production
+- **Remember:** Documents are indexed in **chunks**, so while great for retrieval, they won’t isolate metadata like author names or timestamps
 
