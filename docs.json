@@ -23,6 +23,7 @@
           },
           {
             "group": "Core Concepts",
+            "icon": "cpu",
             "pages": [
               "documentation/core-concepts/agents",
               "documentation/core-concepts/integrations",
@@ -31,6 +32,7 @@
           },
           {
             "group": "Accounts & Billing",
+            "icon": "circle-user",
             "pages": [
               "documentation/accounts-billing/accounts-workspaces",
               "documentation/accounts-billing/subscription-plans",
@@ -39,6 +41,7 @@
           },
           {
             "group": "Features",
+            "icon": "package-plus",
             "pages": [
               "documentation/features/evaluations",
               "documentation/features/scheduled-tasks",
@@ -48,6 +51,7 @@
           },
           {
             "group": "Resources",
+            "icon": "book-marked",
             "pages": [
               "documentation/resources/faqs"
             ]
@@ -59,6 +63,7 @@
         "groups": [
           {
             "group": "Endpoints",
+            "icon": "cable",
             "pages": [
               "api-reference/endpoints/post"
             ]
@@ -67,6 +72,7 @@
       },
       {
         "tab": "Changelog",
+        "icon": "scroll-text",
         "groups": [
           {
             "group": "Updates",
