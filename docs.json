@@ -24,6 +24,19 @@
             "group": "Core Concepts",
             "pages": [
               "documentation/core-concepts/agents",
+              "documentation/core-concepts/integrations",
+              "documentation/core-concepts/prompts",
+              "documentation/core-concepts/channels",
+              "documentation/core-concepts/channels/web-chat",
+              "documentation/core-concepts/channels/whatsapp",
+              "documentation/core-concepts/api"
+            ]
+          }
+        ],
+        "menu": [
+          {
+            "item": "Knowledge Bases",
+            "pages": [
               "documentation/core-concepts/knowledge-bases",
               "documentation/core-concepts/knowledge-bases/databases",
               "documentation/core-concepts/knowledge-bases/documents",
