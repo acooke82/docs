@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#0066ff",
     "light": "#1a75ff",
-    "dark": "#005ce6"
+    "dark": "#0056cc"
   },
   "favicon": "/favicon.png",
   "navigation": {
@@ -16,30 +16,30 @@
           {
             "group": "Getting Started",
             "pages": [
-              "getting-started/what-is-vivi",
-              "getting-started/quickstart"
+              "documentation/getting-started/what-is-vivi",
+              "documentation/getting-started/quickstart"
             ]
           },
           {
             "group": "Core Concepts",
             "pages": [
-              "core-concepts/Agents",
+              "documentation/core-concepts/agents",
               {
-                "page": "core-concepts/Knowledge-Bases",
+                "page": "documentation/core-concepts/knowledge-bases",
                 "subpages": [
-                  "core-concepts/Knowledge-Bases/Databases",
-                  "core-concepts/Knowledge-Bases/Documents",
-                  "core-concepts/Knowledge-Bases/URLs"
+                  "documentation/core-concepts/knowledge-bases/databases",
+                  "documentation/core-concepts/knowledge-bases/documents",
+                  "documentation/core-concepts/knowledge-bases/urls"
                 ]
               },
-              "core-concepts/Integrations",
-              "core-concepts/Prompts",
+              "documentation/core-concepts/integrations",
+              "documentation/core-concepts/prompts",
               {
-                "page": "core-concepts/Channels",
+                "page": "documentation/core-concepts/channels",
                 "subpages": [
-                  "core-concepts/Channels/Web-Chat",
-                  "core-concepts/Channels/WhatsApp",
-                  "core-concepts/Channels/API"
+                  "documentation/core-concepts/channels/web-chat",
+                  "documentation/core-concepts/channels/whatsapp",
+                  "documentation/core-concepts/channels/api"
                 ]
               }
             ]
@@ -47,24 +47,24 @@
           {
             "group": "Accounts & Billing",
             "pages": [
-              "accounts-billing/Accounts-Workspaces",
-              "accounts-billing/Users",
-              "accounts-billing/Subscription-Plans"
+              "documentation/accounts-billing/accounts-workspaces",
+              "documentation/accounts-billing/users",
+              "documentation/accounts-billing/subscription-plans"
             ]
           },
           {
             "group": "Features",
             "pages": [
-              "features/Evaluations",
-              "features/Scheduled-Tasks",
-              "features/Whatsapp-Campaigns",
-              "features/Reports"
+              "documentation/features/evaluations",
+              "documentation/features/scheduled-tasks",
+              "documentation/features/whatsapp-campaigns",
+              "documentation/features/reports"
             ]
           },
           {
             "group": "Resources",
             "pages": [
-              "resources/FAQs"
+              "documentation/resources/faqs"
             ]
           }
         ]
@@ -75,7 +75,7 @@
           {
             "group": "Endpoints",
             "pages": [
-              "api-reference/POST"
+              "api-reference/post"
             ]
           }
         ]
@@ -86,7 +86,7 @@
           {
             "group": "Updates",
             "pages": [
-              "changelog/Updates"
+              "changelog/updates"
             ]
           }
         ]
@@ -112,10 +112,10 @@
   },
   "contextual": {
     "options": [
-     "copy",
-     "view",
-     "chatgpt"
-   ]
+      "copy",
+      "view",
+      "chatgpt"
+    ]
   },
   "footer": {
     "socials": {
@@ -123,8 +123,8 @@
     }
   },
   "seo": {
-  "title": "VIVI Documentation",
-  "description": "Guides, API reference, and support for VIVI users.",
-  "image": "/social-preview.png"
-}
+    "title": "VIVI Documentation",
+    "description": "Guides, API reference, and support for VIVI users.",
+    "image": "/social-preview.png"
+  }
 }
