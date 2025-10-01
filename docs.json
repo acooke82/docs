@@ -51,31 +51,65 @@
             "pages": [
               "documentation/resources/faqs"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
           {
-            "tab": "API Reference",
-            "groups": [
-              {
-                "group": "Endpoints",
-                "pages": [
-                  "api-reference/endpoints/post"
-                ]
-              }
+            "group": "Endpoints",
+            "pages": [
+              "api-reference/endpoints/post"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
           {
-            "tab": "Changelog",
-            "groups": [
-              {
-                "group": "Updates",
-                "pages": [
-                  "changelog/updates"
-                ]
-              }
+            "group": "Updates",
+            "pages": [
+              "changelog/updates"
             ]
           }
         ]
       }
     ]
+  },
+  "logo": {
+    "light": "/logo/dark.png",
+    "dark": "/logo/light.png"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Support",
+        "href": "https://vivi.bot/contact-vivi/"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Log into VIVI",
+      "href": "https://portal.vivi.bot/"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt"
+    ]
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/kinetic-solutions-group-pr/posts/?feedView=all"
+    }
+  },
+  "seo": {
+    "title": "VIVI Documentation",
+    "description": "Guides, API reference, and support for VIVI users.",
+    "image": "/social-preview.png"
   }
 }
