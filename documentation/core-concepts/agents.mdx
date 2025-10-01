@@ -1,5 +1,95 @@
 ---
-title: 'New file'
-description: 'Description of your new file.'
----
+title: 'Agents'
+---------
 
+# Agents
+
+Agents are the core of the platform. An agent is a virtual team member that assists customers or employees across a variety of use cases.
+
+Agents combine knowledge bases, prompts, integrations, channels, and models into one system. These components allow the agent to deliver helpful, accurate, and efficient support.
+
+At minimum, an agent requires a **name**, **prompt**, and **model** to be created. Once created, you can use the **Test Agent** feature to verify its responses before deployment.
+
+## Why It Matters
+
+Agents turn configuration into capability. They bring together the instructions, knowledge, and tools that define what the system can actually do.
+
+- **Flexibility:** Agents adapt to use cases by combining different knowledge bases, prompts, and integrations.
+- **Execution:** Agents don’t just answer questions; they act within the channels you enable.
+- **Scalability:** Agents can be duplicated, modified, or specialized as your needs grow.
+
+## How Agents Work
+
+1. **Set a Name**  
+   Provide a clear name that describes the agent’s role or function.
+
+2. **Add a Prompt**  
+   Define the agent’s role, tone, and rules of engagement.
+
+3. **Select a Model**  
+   Choose the large language model that powers the agent (see Models section below).
+
+4. **Connect Knowledge Bases**  
+   Provide the sources of truth the agent can reference.
+
+5. **Enable Integrations**  
+   Connect apps, APIs, or other agents so the agent can take action.
+
+6. **Select Channels**  
+   Decide where the agent is available, such as web chat, WhatsApp, or API.
+
+7. **Configure Memory (Optional)**  
+   Decide whether the agent should retain context across sessions (see Memory section below).
+
+8. **Test the Agent**  
+   Use the Test Agent feature to validate performance before going live.
+
+## Models
+
+Agents are powered by large language models. Different models offer different strengths:
+
+### gpt-4.1
+
+- Input: 1,000,000 tokens  
+- Max Output: 32,768 tokens  
+- Use Case: Flagship model for complex work requiring a long context window.
+
+### gpt-4.1-mini
+
+- Input: 1,000,000 tokens  
+- Max Output: 32,768 tokens  
+- Use Case: Faster, lower-cost option for long-context tasks, with reduced accuracy.
+
+### gpt-4o
+
+- Input: 128,000 tokens  
+- Max Output: 16,384 tokens  
+- Use Case: Multimodal generalist (text, image, audio). Balanced all-rounder.  
+- Note: Streams replies. Very fast, smaller context window.
+
+### gpt-o3
+
+- Input: 200,000 tokens  
+- Max Output: 100,000 tokens  
+- Use Case: Strong reasoning for hard problems that require step-by-step analysis.
+
+### gpt-o4-mini
+
+- Input: 200,000 tokens  
+- Max Output: 100,000 tokens  
+- Use Case: Compact reasoning model, strong in math, coding, and visuals.
+
+## Memory
+
+Agents can be created with memory enabled or disabled.
+
+- **Short-Term Memory:** Retains context within a single session. Allows the agent to remember information from earlier in the same conversation.
+- **Long-Term Memory:** Stores key facts and details from past sessions. Enables the agent to provide a more personalized experience over time.
+- **No Memory:** Each session starts fresh, with no recall of prior context.
+
+## Best Practices
+
+- Use descriptive names so the agent’s purpose is obvious to team members.
+- Match the model to the use case. Large-context models are ideal for complex tasks; smaller, faster models work best for lightweight workflows.
+- Enable memory selectively. Use short-term for contextual conversations and long-term for personalized customer interactions.
+- Always test agents after configuring components to validate accuracy and performance.
