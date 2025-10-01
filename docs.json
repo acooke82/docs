@@ -18,97 +18,9 @@
             "pages": [
               "documentation/index"
             ]
-          },
-          {
-            "group": "Getting Started",
-            "pages": [
-              "documentation/getting-started/what-is-vivi",
-              "documentation/getting-started/quickstart"
-            ]
-          },
-          {
-            "group": "Core Concepts",
-            "pages": [
-              "documentation/core-concepts/agents",
-              {
-                "page": "documentation/core-concepts/knowledge-bases",
-                "subpages": [
-                  "documentation/core-concepts/knowledge-bases/databases",
-                  "documentation/core-concepts/knowledge-bases/documents",
-                  "documentation/core-concepts/knowledge-bases/urls"
-                ]
-              },
-              "documentation/core-concepts/integrations",
-              "documentation/core-concepts/prompts",
-              {
-                "page": "documentation/core-concepts/channels",
-                "subpages": [
-                  "documentation/core-concepts/channels/web-chat",
-                  "documentation/core-concepts/channels/whatsapp",
-                  "documentation/core-concepts/channels/api"
-                ]
-              }
-            ]
-          },
-          {
-            "group": "Accounts & Billing",
-            "pages": [
-              "documentation/accounts-billing/accounts-workspaces",
-              "documentation/accounts-billing/users",
-              "documentation/accounts-billing/subscription-plans"
-            ]
-          },
-          {
-            "group": "Features",
-            "pages": [
-              "documentation/features/evaluations",
-              "documentation/features/scheduled-tasks",
-              "documentation/features/whatsapp-campaigns",
-              "documentation/features/reports"
-            ]
-          },
-          {
-            "group": "Resources",
-            "pages": [
-              "documentation/resources/faqs"
-            ]
           }
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/dark.png",
-    "dark": "/logo/light.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "https://vivi.bot/contact-vivi/"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Log into VIVI",
-      "href": "https://portal.vivi.bot/"
-    }
-  },
-  "contextual": {
-    "options": [
-      "copy",
-      "view",
-      "chatgpt"
-    ]
-  },
-  "footer": {
-    "socials": {
-      "linkedin": "https://www.linkedin.com/company/kinetic-solutions-group-pr/posts/?feedView=all"
-    }
-  },
-  "seo": {
-    "title": "VIVI Documentation",
-    "description": "Guides, API reference, and support for VIVI users.",
-    "image": "/social-preview.png"
   }
 }
