@@ -26,8 +26,17 @@
             "icon": "microchip",
             "pages": [
               "documentation/core-concepts/agents",
+              "documentation/core-concepts/channels",
               "documentation/core-concepts/integrations",
-              "documentation/core-concepts/prompts"
+              "documentation/core-concepts/prompts",
+              {
+                "dropdown": "Knowledge Bases",
+                "pages": [
+                  "documentation/core-concepts/knowledge-bases/databases",
+                  "documentation/core-concepts/knowledge-bases/documents",
+                  "documentation/core-concepts/knowledge-bases/urls"
+                ]
+              }
             ]
           },
           {
