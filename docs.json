@@ -18,7 +18,8 @@
             "icon": "flag",
             "pages": [
               "documentation/getting-started/what-is-vivi",
-              "documentation/getting-started/quickstart"
+              "documentation/getting-started/quickstart",
+              "documentation/getting-started/meet-vivi"
             ]
           },
           {
@@ -30,7 +31,7 @@
               "documentation/core-concepts/integrations",
               "documentation/core-concepts/prompts",
               {
-                "dropdown": "Knowledge Bases",
+                "group": "Knowledge Bases",
                 "pages": [
                   "documentation/core-concepts/knowledge-bases/databases",
                   "documentation/core-concepts/knowledge-bases/documents",
