@@ -17,6 +17,7 @@
             "group": "Getting Started",
             "icon": "flag",
             "pages": [
+              "/docs",
               "documentation/getting-started/what-is-vivi",
               "documentation/getting-started/quickstart"
             ]
