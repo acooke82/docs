@@ -18,8 +18,7 @@
             "icon": "flag",
             "pages": [
               "documentation/getting-started/what-is-vivi",
-              "documentation/getting-started/quickstart",
-              "documentation/getting-started/meet-vivi"
+              "documentation/getting-started/quickstart"
             ]
           },
           {
@@ -27,7 +26,14 @@
             "icon": "microchip",
             "pages": [
               "documentation/core-concepts/agents",
-              "documentation/core-concepts/channels",
+              {
+                "group": "Channels",
+                "pages": [
+                  "documentation/core-concepts/channels/api",
+                  "documentation/core-concepts/channels/web-chat",
+                  "documentation/core-concepts/channels/whatsapp"
+                ]
+              },
               "documentation/core-concepts/integrations",
               "documentation/core-concepts/prompts",
               {
